@@ -1,4 +1,4 @@
-jlacd-conv [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://docs.python.org/3.7/)
+jlaselect [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://docs.python.org/3.7/) [![Maintainability](https://api.codeclimate.com/v1/badges/65ec5ac5f1152c705347/maintainability)](https://codeclimate.com/github/CALIL/jlaselect/maintainability)
 =============================================================
 日本図書館協会選定図書総目録CD-ROMのデータ変換ツール
 
