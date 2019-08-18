@@ -24,6 +24,20 @@ pipenv install
 pipenv run python jlacd-conv.py > jlacd.jsonl
 ```
 
+サンプルデータ
+----
+```json
+{"year": 1999, "isbn": "426701535X"}
+{"year": 1999, "isbn": "4121014995"}
+{"year": 1999, "isbn": "4876386749"}
+```
+
+| 項目 | 型 | 概要 |
+| ---- | ---- | ---- | 
+| year | Number | 選定された西暦 |
+| isbn | String | 正規化されたISBN（ISBN-10） |
+
+
 処理済みデータのダウンロード
 ----
 
