@@ -37,6 +37,9 @@ def convert_jla(filename):
     for item in items:
         lines = re.split('\$A', item.decode("cp932", "replace"))
         index = 0  # ISBN Index
+        if len(lines)==1:
+            print(item)
+            continue
         if lines[2] == "JP$B00000000":
             index = 1
         elif lines[3] == "JP$B00000000":
@@ -75,9 +78,9 @@ def convert_jla(filename):
         }
         # print(json.dumps(v, ensure_ascii=False))
         vals.append(v)
-        if len(vals) % 500 == 0:
-            print("%d 件処理しました." % len(vals))
-    print("%d 件処理しました." % len(vals))
+        #if len(vals) % 500 == 0:
+        #    print("%d 件処理しました." % len(vals))
+    #print("%d 件処理しました." % len(vals))
     return vals
 
 
@@ -88,6 +91,7 @@ def convert():
     """
     data = convert_jla('JBISCS2008')
     data += convert_jla('JBISCS2013')
+    data += convert_jla('JBISCS2016')
     data = sorted(data, key=lambda x: x['id'])
     chk = {}
     for item in data:

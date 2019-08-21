@@ -21,7 +21,7 @@ pipenv install
 - 複数ファイルをまとめて処理する場合は、プログラムを直接修正する
 
 ```bash
-pipenv run python jlacd-conv.py > jlacd.jsonl
+pipenv run python jlacd-conv.py > jlaselect.jsonl
 ```
 
 サンプルデータ
