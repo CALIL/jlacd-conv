@@ -21,7 +21,7 @@ pipenv install
 - 複数ファイルをまとめて処理する場合は、プログラムを直接修正する
 
 ```bash
-pipenv run python jlacd-conv.py > jlaselect.jsonl
+pipenv run python jlaselect.py > jlaselect.jsonl
 ```
 
 サンプルデータ
@@ -41,7 +41,7 @@ pipenv run python jlacd-conv.py > jlaselect.jsonl
 処理済みデータのダウンロード
 ----
 
-**現在準備中です**
+[jlaselect.jsonl](https://github.com/CALIL/jlaselect/raw/master/jlaselect.jsonl) (2019年8月21日公開)
 
 - 処理に用いた元情報は以下の通りです
 
