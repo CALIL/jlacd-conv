@@ -41,7 +41,7 @@ pipenv run python jlaselect.py > jlaselect.jsonl
 処理済みデータのダウンロード
 ----
 
-[jlaselect.jsonl](https://github.com/CALIL/jlaselect/raw/master/jlaselect.jsonl) (2019年8月21日公開)
+[jlaselect.jsonl](https://github.com/CALIL/jlaselect/raw/master/jlaselect.jsonl) 130,702件 (2019年8月21日公開)
 
 - 処理に用いた元情報は以下の通りです
 
