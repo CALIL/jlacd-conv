@@ -1,8 +1,5 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 __title__ = '選定図書総目録CD-ROMのデータ変換ツール'
-__copyright__ = "Copyright (C) 2019 CALIL Inc."
+__copyright__ = "Copyright (C) 2023 CALIL Inc."
 __author__ = "Ryuuji Yoshimoto <ryuuji@calil.jp>"
 
 import re
