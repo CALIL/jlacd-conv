@@ -10,7 +10,7 @@ jlaselect [![](https://img.shields.io/badge/python-3.11+-blue.svg)](https://docs
 
 依存パッケージのインストール
 ----
-```json
+```
 poetry install
 ```
 
